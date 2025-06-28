@@ -85,7 +85,7 @@ pod 'NVActivityIndicatorView-ObjC'
 ### Basic Usage
 
 ```objc
-#import <NVActivityIndicatorView_ObjC/NVActivityIndicatorView.h>
+#import "NVActivityIndicatorView.h"
 
 // Create an activity indicator
 NVActivityIndicatorView *activityIndicatorView = [[NVActivityIndicatorView alloc]
