@@ -4,7 +4,6 @@
   <img src="demo.png" width="300" alt="NVActivityIndicatorView Demo"/>
 </div>
 
-[![CI Status](https://img.shields.io/travis/maitrungduc1410/NVActivityIndicatorView.svg?style=flat)](https://travis-ci.org/maitrungduc1410/NVActivityIndicatorView)
 [![Version](https://img.shields.io/cocoapods/v/NVActivityIndicatorView-ObjC.svg?style=flat)](https://cocoapods.org/pods/NVActivityIndicatorView-ObjC)
 [![License](https://img.shields.io/cocoapods/l/NVActivityIndicatorView-ObjC.svg?style=flat)](https://cocoapods.org/pods/NVActivityIndicatorView-ObjC)
 [![Platform](https://img.shields.io/cocoapods/p/NVActivityIndicatorView-ObjC.svg?style=flat)](https://cocoapods.org/pods/NVActivityIndicatorView-ObjC)
