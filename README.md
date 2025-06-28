@@ -1,7 +1,7 @@
 # NVActivityIndicatorView-ObjC
 
 <div align="center">
-  <img src="demo.png" width="300" alt="NVActivityIndicatorView Demo"/>
+  <img src="./demo.PNG" width="300" alt="NVActivityIndicatorView Demo"/>
 </div>
 
 [![Version](https://img.shields.io/cocoapods/v/NVActivityIndicatorView-ObjC.svg?style=flat)](https://cocoapods.org/pods/NVActivityIndicatorView-ObjC)
