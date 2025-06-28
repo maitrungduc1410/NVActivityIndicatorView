@@ -1,0 +1,16 @@
+PODS:
+  - NVActivityIndicatorView-ObjC (0.1.0)
+
+DEPENDENCIES:
+  - NVActivityIndicatorView-ObjC (from `../`)
+
+EXTERNAL SOURCES:
+  NVActivityIndicatorView-ObjC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NVActivityIndicatorView-ObjC: 05107bdb21001f4716ac647adaddabf2963871cb
+
+PODFILE CHECKSUM: c92b9b12b7e66a803c3b570e3ef5aa36e7c00313
+
+COCOAPODS: 1.15.2

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1E6E947AB4037D07F22387AD /* Pods-NVActivityIndicatorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVActivityIndicatorView_Example.release.xcconfig"; path = "Target Support Files/Pods-NVActivityIndicatorView_Example/Pods-NVActivityIndicatorView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		33F39F628EE255728101AA44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		33F39F628EE255728101AA44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		50DC6DCB48026019897C62D5 /* Pods-NVActivityIndicatorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVActivityIndicatorView_Example.debug.xcconfig"; path = "Target Support Files/Pods-NVActivityIndicatorView_Example/Pods-NVActivityIndicatorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NVActivityIndicatorView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVActivityIndicatorView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		65DC2E6B41532F89FEDB40C8 /* Pods-NVActivityIndicatorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVActivityIndicatorView_Tests.release.xcconfig"; path = "Target Support Files/Pods-NVActivityIndicatorView_Tests/Pods-NVActivityIndicatorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AEB5AC348250700955603CC /* NVActivityIndicatorView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NVActivityIndicatorView.podspec; path = ../NVActivityIndicatorView.podspec; sourceTree = "<group>"; };
+		8AEB5AC348250700955603CC /* NVActivityIndicatorView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NVActivityIndicatorView.podspec; path = ../NVActivityIndicatorView.podspec; sourceTree = "<group>"; };
 		95A3DFF81D876DBDA52342D3 /* Pods_NVActivityIndicatorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVActivityIndicatorView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC761AAC58B6EFF84108D877 /* Pods_NVActivityIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVActivityIndicatorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E450631C4D2DB0C185F070E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E450631C4D2DB0C185F070E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FE71A4841E4CAA72763036C7 /* Pods-NVActivityIndicatorView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVActivityIndicatorView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NVActivityIndicatorView_Tests/Pods-NVActivityIndicatorView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				FE71A4841E4CAA72763036C7 /* Pods-NVActivityIndicatorView_Tests.debug.xcconfig */,
 				65DC2E6B41532F89FEDB40C8 /* Pods-NVActivityIndicatorView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = maitrungduc1410;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = C9FU286T96;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,11 +305,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NVActivityIndicatorView_Example/Pods-NVActivityIndicatorView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView-ObjC/NVActivityIndicatorView_ObjC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView_ObjC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 50DC6DCB48026019897C62D5 /* Pods-NVActivityIndicatorView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9FU286T96;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NVActivityIndicatorView/NVActivityIndicatorView-Prefix.pch";
 				INFOPLIST_FILE = "NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 1E6E947AB4037D07F22387AD /* Pods-NVActivityIndicatorView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9FU286T96;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NVActivityIndicatorView/NVActivityIndicatorView-Prefix.pch";
 				INFOPLIST_FILE = "NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";

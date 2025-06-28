@@ -1,0 +1,25 @@
+{
+  "name": "NVActivityIndicatorView-ObjC",
+  "version": "0.1.0",
+  "summary": "A short description of NVActivityIndicatorView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/maitrungduc1410/NVActivityIndicatorView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "maitrungduc1410": "maitrungduc1410@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/maitrungduc1410/NVActivityIndicatorView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "NVActivityIndicatorView-ObjC/Classes/**/*",
+  "frameworks": "UIKit",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

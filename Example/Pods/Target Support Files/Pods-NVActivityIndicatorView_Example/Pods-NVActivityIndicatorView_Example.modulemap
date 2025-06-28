@@ -1,0 +1,6 @@
+framework module Pods_NVActivityIndicatorView_Example {
+  umbrella header "Pods-NVActivityIndicatorView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
