@@ -1,5 +1,5 @@
 PODS:
-  - NVActivityIndicatorView-ObjC (0.1.0)
+  - NVActivityIndicatorView-ObjC (1.0.1)
 
 DEPENDENCIES:
   - NVActivityIndicatorView-ObjC (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NVActivityIndicatorView-ObjC: 05107bdb21001f4716ac647adaddabf2963871cb
+  NVActivityIndicatorView-ObjC: a2394f53d84c32f71823743a2030e0378d40332f
 
 PODFILE CHECKSUM: c92b9b12b7e66a803c3b570e3ef5aa36e7c00313
 

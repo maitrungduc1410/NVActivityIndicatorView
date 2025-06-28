@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NVActivityIndicatorView-ObjC'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A collection of awesome loading animations for iOS, ported to Objective-C'
 
   s.description      = <<-DESC
@@ -19,8 +19,8 @@ sizes, and animation speeds with an easy-to-use API.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'NVActivityIndicatorView/Classes/**/*'
+  s.source_files = 'NVActivityIndicatorView-ObjC/Classes/**/*'
   
-  s.public_header_files = 'NVActivityIndicatorView/Classes/**/*.h'
+  s.public_header_files = 'NVActivityIndicatorView-ObjC/Classes/**/*.h'
   s.frameworks = 'UIKit', 'QuartzCore'
 end
