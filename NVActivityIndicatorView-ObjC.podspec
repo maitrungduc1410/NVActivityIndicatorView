@@ -11,11 +11,11 @@ sizes, and animation speeds with an easy-to-use API.
                        DESC
 
   s.homepage         = 'https://github.com/maitrungduc1410/NVActivityIndicatorView'
-  s.screenshots      = 'https://raw.githubusercontent.com/maitrungduc1410/NVActivityIndicatorView/master/demo.png'
+  s.screenshots      = 'https://raw.githubusercontent.com/maitrungduc1410/NVActivityIndicatorView/master/demo.PNG'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'maitrungduc1410' => 'maitrungduc1410@gmail.com' }
   s.source           = { :git => 'https://github.com/maitrungduc1410/NVActivityIndicatorView.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/maitrungduc1410'
+  s.social_media_url = 'https://x.com/maitrungduc1410'
 
   s.ios.deployment_target = '9.0'
 
